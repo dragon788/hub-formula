@@ -1,0 +1,19 @@
+hub_packages:
+  platform: linux
+    - name: hub-linux-386-2.2.0.tar.gz
+      arch: 386
+      hash: md5=75f0c7374fff1ff5652b7a50266a9bb5
+    - name: hub-linux-amd64-2.2.0.tar.gz
+      arch: amd64
+      hash: md5=db3b2b97e9359f004e90e119b1c771fc
+  platform: mac
+    - name: hub-mac-amd64-2.2.0.tar.gz
+      arch: amd64
+      hash: md5=1965e2abd3d9f95c92a74e32ce69f28b
+  platform: windows
+    - name: hub-windows-386-2.2.0.tar.gz
+      arch: 386
+      hash: md5=3bf7c9bf0f92e379e2ad7f4d19d89b0d
+    - name: hub-windows-amd64-2.2.0.tar.gz
+      arch: amd64
+      hash: md5=f1ea0039672802a0f035f03785ae91f1

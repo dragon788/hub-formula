@@ -1,7 +1,8 @@
 {% set platform = salt['grains.filter_by']({
     'platform': {
-        'name': 'template',
-        'arch': 'template',
-        'md5': 'stuff',
+        'arch': {
+        'name': 'name',
+        'md5': 'md5',
+	}
     },
 }, merge=salt['pillar.get']('hub_packages:platform')) %}
